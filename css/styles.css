@@ -583,6 +583,9 @@ img {
   align-items: center;
   justify-content: center;
   gap: 16;
+}
+
+.footer-soc-link:first-child {
   transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
