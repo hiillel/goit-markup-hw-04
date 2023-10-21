@@ -359,6 +359,7 @@ img {
 .team-soc-icon {
   width: 16px;
   height: 16px;
+  fill: #f4f4fd;
 }
 
 .team-soc-link {
@@ -373,7 +374,12 @@ img {
   transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
-.team-soc-link:hover {
+.team-soc-link:first-child{
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #404bbf;
 }
 
